@@ -11,7 +11,7 @@ A template for starter projects.
     </ul>
   </li>
   <li><b>Create a blank Database.</b></li>
-  <li><b>Migrate the db-migrations by running this command:</b> <code>php artisan migrate</code>.</li>
+  <li><b>Migrate the db-migrations by running this command:</b> <code>php artisan migrate</code></li>
   <li><b>Run the db-seeder with this command:</b> 
     <ul>
       <li><code>php artisan db:seed</code></li> or 
@@ -36,7 +36,7 @@ A template for starter projects.
   <li><b>For Php Artisan commands:</b></li>
     <ul>
       <li><code>php artisan serve</code></li>
-      <li>then copy the created URL and port on browser.</li>
+      <li>then copy the created URL and port on browser. For example: <code>http://127.0.0.1:8000</code></li>
     <ul>
   <li>To login on page, see sample account that were created awhile ago on Seeders.</li>
 </ul>
