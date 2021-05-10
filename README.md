@@ -26,7 +26,7 @@ A template for starter projects.
       <ul>
         <li>`cd resources/js`</li>
         <li>then run, `node server.js`</li>
-      <ul>
+      </ul>
   </ul>
   <li>For Php Artisan commands:</li>
     <ul>
