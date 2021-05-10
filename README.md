@@ -12,7 +12,12 @@ A template for starter projects.
   </li>
   <li>Create a blank Database.</li>
   <li>Migrate the db-migrations by running this command: <code>php artisan migrate</code>.</li>
-  <li>Run the db-seeder with this command: <code>php artisan db:seed</code> or <code>php artisan db:seed --class=CreateAdminUserSeeder</code> and <code>php artisan db:seed --class=PermissionSeeder</code>.
+  <li>Run the db-seeder with this command: 
+    <ul>
+      <li><code>php artisan db:seed</code></li> or 
+      <li><code>php artisan db:seed --class=CreateAdminUserSeeder</code></li> and 
+      <li><code>php artisan db:seed --class=PermissionSeeder</code></li>.
+    </ul>
   </li>
   <li>Required npm commands:</li>
     <ul>
