@@ -4,7 +4,6 @@ import Home from './views/Home.vue';
 import Login from './auth/Login.vue';
 import Permission from './views/permission/PermissionIndex.vue';
 import Role from './views/role/RoleIndex.vue';
-import User from './views/role/UserIndex.vue';
 import PageNotFound from './404/PageNotFound.vue';
 import Unauthorize from './401/Unauthorize.vue';
 
@@ -52,27 +51,6 @@ const routes = [
         }
       },
       {
-        path: '/user/index',
-        name: 'user.index',
-        component: User,
-        beforeEnter(to, from, next)
-        { 
-          let user_permissions = JSON.parse(localStorage.getItem("user_permissions"));
-          if(user_permissions.includes('user-list') || 
-             user_permissions.includes('user-create') ||
-             user_permissions.includes('user-edit') ||
-             user_permissions.includes('user-delete')
-            )
-          {
-            next();
-          }
-          else
-          {
-            next('/unauthorize');
-          }
-        }
-      },
-      {
         path: '/unauthorize',
         name: 'unauthorize',
         component: Unauthorize,
@@ -109,7 +87,6 @@ const routes = [
 ];
 
 const router = new Router({
-  history: 'history',
   routes: routes
 });
 
