@@ -3,29 +3,29 @@ A template for starter projects.
 
 ### Here are the Steps to follow in order to run this project:
 <ul>
-  <li>Clone this project through:</li>
+  <li><b>Clone this project through:</b></li>
     <ul>
       <li>HTTPS: <code>https://github.com/monielly/laravel-socket-io.git</code></li>
       <li>SSH: <code>git@github.com:monielly/laravel-socket-io.git</code></li>
       <li>Github CLI: <code>gh repo clone monielly/laravel-socket-io</code></li>
     </ul>
   </li>
-  <li>Create a blank Database.</li>
-  <li>Migrate the db-migrations by running this command: <code>php artisan migrate</code>.</li>
-  <li>Run the db-seeder with this command: 
+  <li><b>Create a blank Database.</b></li>
+  <li><b>Migrate the db-migrations by running this command:</b> <code>php artisan migrate</code>.</li>
+  <li><b>Run the db-seeder with this command:</b> 
     <ul>
       <li><code>php artisan db:seed</code></li> or 
       <li><code>php artisan db:seed --class=CreateAdminUserSeeder</code></li> and 
-      <li><code>php artisan db:seed --class=PermissionSeeder</code></li>.
+      <li><code>php artisan db:seed --class=PermissionSeeder</code></li>
     </ul>
   </li>
-  <li>Required npm commands:</li>
+  <li><b>Required npm commands:</b></li>
     <ul>
       <li><code>sudo npm install --global cross-env</code></li>
       <li><code>rm -rf node_modules && npm install</code></li>
       <li>then lastly, <code>npm run watch</code></li>
     </ul>
-  <li>For Socket I.O</li>
+  <li><b>For Socket I.O</b></li>
   <ul>
      <li>Locate to js files by running this command:</li>
       <ul>
@@ -33,7 +33,7 @@ A template for starter projects.
         <li>then run, <code>node server.js</code></li>
       </ul>
   </ul>
-  <li>For Php Artisan commands:</li>
+  <li><b>For Php Artisan commands:</b></li>
     <ul>
       <li><code>php artisan serve</code></li>
       <li>then copy the created URL and port on browser.</li>
