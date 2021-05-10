@@ -33,7 +33,8 @@
       <v-list>
         <v-list-item
           link
-          to="/user/index"
+          :to="{ name: 'user.index' }"
+          v-if="permissions.user_list || permissions.user_create"
         >
           <v-list-item-icon>
             <v-icon>mdi-account-arrow-right-outline</v-icon>
